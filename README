@@ -1,0 +1,21 @@
+PlayList
+Aplicación para crear una playlist centralizada y accesible desde un browser.
+
+Usa 'mpg123' para reproducir solo archivos MP3 (por ahora) basandose en un 
+directorio raiz con la siguiente estructura:
+root
+---Artista
+	---Disco
+
+Dentro de Disco deben estar los archivos mp3.
+
+Requerimientos:
+-Sinatra
+-haml
+-thin (opcional)
+
+Configuracion:
+Los parametros estan en el archivo conf/appConfig.yml 
+- mainrepo es el directorio raiz para leer los archivos
+- max_by_ip es la cantidad maxima de temas que puede tener una ip en la lista simultaneamente. (-1 indica sin limite)
+- enable_random habilita o no la reproduccion automatica de un tema al azar cuando no hay temas en la cola (true/false)
