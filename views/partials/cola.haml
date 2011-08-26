@@ -1,0 +1,15 @@
+%p= "Sonando ahora: <b>#{@cola.first.nombre}</b> de <a href='http://www.lastfm.es/music/#{@cola.first.artista.sub(/\s/,'+')}' target='_blank'>#{@cola.first.artista}</a>" unless @cola.empty?
+
+%p= @cola.size>1?"Lo que viene, lo que viene...":"No hay nada en espera."
+
+-if @cola.size>1
+	%div{:id=>'tablaCont',:style=>'width:555px;height:370px;overflow:auto'}
+		%table{:width=>'100%',:border=>'1',:cellspacing=>'0',:cellspadding=>'0'}
+			-@cola[1..-1].each do |tema|
+				%tr
+					%td= tema.nombre
+					%td= tema.artista
+					-if tema.ip=="#{env['REMOTE_ADDR']}"
+						%td{:align=>'center'}
+							%a{:href=>'#',:onclick=>"removeTema('#{tema.nombre}','#{tema.artista}')"}
+								%img{:src=>'/images/delete_big.png',:border=>'0',:alt=>'Eliminar'}

@@ -1,0 +1,6 @@
+%option{:value=>''}Seleccionar...
+-@options.each do |op|
+	-if op.respond_to?('nombre')
+		%option{:value=>op.path}=op.nombre
+	-else
+		%option{:value=>op}=op

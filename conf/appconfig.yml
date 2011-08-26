@@ -1,0 +1,8 @@
+#El directorio raiz de los mp3
+:mainrepo: /mnt/fer/mp3
+#la cantidad maxima de temas por ip en la lista (-1 para sin limite)
+:max_by_ip: -1 
+#Habilitar tema aleatorio cuando la lista esta vacia? (true/false)
+:enable_random: true
+#El comando para escuchar el tema (sin el nombre del archivo)
+:command: "mpg123 -q"

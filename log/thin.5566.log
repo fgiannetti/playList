@@ -1,0 +1,12 @@
+>> Writing PID to /home/fgianetti/desaMost/ruby/playList/tmp/thin.5566.pid
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 127.0.0.1:5566, CTRL+C to stop
+127.0.0.1 - - [06/Oct/2010 16:09:29] "GET / HTTP/1.1" 200 274 0.0198
+127.0.0.1 - - [06/Oct/2010 16:09:29] "GET /images/error.jpg HTTP/1.1" 200 101238 0.0012
+>> Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+>> Writing PID to /home/fgianetti/desaMost/ruby/playList/tmp/thin.5566.pid
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 127.0.0.1:5566, CTRL+C to stop
+>> Exiting!

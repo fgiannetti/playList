@@ -1,0 +1,9 @@
+>> Writing PID to /home/fgianetti/desaMost/ruby/playList/tmp/thin.5567.pid
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 127.0.0.1:5567, CTRL+C to stop
+127.0.0.1 - - [06/Oct/2010 16:09:33] "GET / HTTP/1.1" 200 274 0.0043
+127.0.0.1 - - [06/Oct/2010 16:09:33] "GET /images/error.jpg HTTP/1.1" 200 101238 0.0012
+127.0.0.1 - - [06/Oct/2010 16:09:33] "GET /favicon.ico HTTP/1.1" 404 258 0.0051
+127.0.0.1 - - [06/Oct/2010 16:09:36] "GET /favicon.ico HTTP/1.1" 404 258 0.0081
+>> Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now

@@ -1,0 +1,11 @@
+div#listado{
+	background-image: url('/images/Notepad2.gif');
+	width: 515px;
+	height:310px;
+}
+div#textoListado{
+	width: 515px;
+        height:310px;
+	margin-top:50px;
+	overflow:auto;
+}

@@ -1,0 +1,12 @@
+---
+   environment: development
+   chdir: /home/fgianetti/desaMost/ruby/playList
+   address: 127.0.0.1
+   port: 5566
+   pid: /home/fgianetti/desaMost/ruby/playList/tmp/thin.pid
+   rackup: /home/fgianetti/desaMost/ruby/playList/thin/rackup.ru
+   log: /home/fgianetti/desaMost/ruby/playList/log/thin.log
+   max_conns: 1024
+   timeout: 30
+   max_persistent_conns: 512
+   daemonize: true

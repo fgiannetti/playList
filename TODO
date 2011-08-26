@@ -1,0 +1,5 @@
+- Cuando un directorio no tiene hijos, eliminarlo de la lista (tanto artisca como disco)
+- En vez de un combo de temas, mostrar una lista con checks
+- Ver si es necesario volver a recargar todos los combos al agregar o se puede
+recargar solo la lista de abajo. Lo que pasa es que /add deberia ir a la pagina
+que arma la lista y usar load al apretar el boton de agregar, pero deberia no usar un submit ni form, sino mandar los valores seleccionados como parametros de la url

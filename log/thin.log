@@ -1,0 +1,51 @@
+>> Writing PID to /home/fgianetti/desaMost/ruby/playList/tmp/thin.pid
+>> Exiting!
+/home/fgianetti/desaMost/ruby/playList/thin/rackup.ru:7: undefined method `Sinatra' for #<Rack::Builder:0xb75a9e68 @ins=[]> (NoMethodError)
+	from /usr/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/builder.rb:46:in `instance_eval'
+	from /usr/lib/ruby/gems/1.8/gems/rack-1.2.1/lib/rack/builder.rb:46:in `initialize'
+	from /home/fgianetti/desaMost/ruby/playList/thin/rackup.ru:1:in `new'
+	from /home/fgianetti/desaMost/ruby/playList/thin/rackup.ru:1
+>> Writing PID to /home/fgianetti/desaMost/ruby/playList/tmp/thin.pid
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 127.0.0.1:5566, CTRL+C to stop
+127.0.0.1 - - [06/Oct/2010 13:08:03] "GET / HTTP/1.1" 200 4888 0.0438
+127.0.0.1 - - [06/Oct/2010 13:08:05] "GET /lista HTTP/1.1" 200 38 0.0036
+127.0.0.1 - - [06/Oct/2010 13:08:05] "GET /favicon.ico HTTP/1.1" 404 258 0.0047
+127.0.0.1 - - [06/Oct/2010 13:08:08] "GET /favicon.ico HTTP/1.1" 404 258 0.0080
+127.0.0.1 - - [06/Oct/2010 13:08:08] "POST /discos HTTP/1.1" 200 84 0.0034
+127.0.0.1 - - [06/Oct/2010 13:08:08] "POST /temas HTTP/1.1" 200 41 0.0032
+127.0.0.1 - - [06/Oct/2010 13:08:10] "POST /temas HTTP/1.1" 200 41 0.0266
+127.0.0.1 - - [06/Oct/2010 13:08:35] "GET /lista HTTP/1.1" 200 38 0.0062
+127.0.0.1 - - [06/Oct/2010 13:08:37] "POST /discos HTTP/1.1" 200 228 0.0065
+127.0.0.1 - - [06/Oct/2010 13:08:37] "POST /temas HTTP/1.1" 200 41 0.0058
+127.0.0.1 - - [06/Oct/2010 13:08:38] "POST /temas HTTP/1.1" 200 431 0.0065
+127.0.0.1 - - [06/Oct/2010 13:08:41] "POST /add HTTP/1.1" 200 4962 0.0409
+127.0.0.1 - - [06/Oct/2010 13:08:41] "POST /discos HTTP/1.1" 200 228 0.0042
+127.0.0.1 - - [06/Oct/2010 13:08:41] "GET /lista HTTP/1.1" 200 79 0.0039
+127.0.0.1 - - [06/Oct/2010 13:08:41] "POST /temas HTTP/1.1" 200 431 0.0042
+127.0.0.1 - - [06/Oct/2010 13:09:11] "GET /lista HTTP/1.1" 200 79 0.0070
+Terminated
+>> Writing PID to /home/fgianetti/desaMost/ruby/playList/tmp/thin.pid
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 127.0.0.1:5566, CTRL+C to stop
+127.0.0.1 - - [06/Oct/2010 13:13:52] "GET / HTTP/1.1" 200 4888 0.0445
+127.0.0.1 - - [06/Oct/2010 13:13:52] "GET /lista HTTP/1.1" 200 38 0.0036
+127.0.0.1 - - [06/Oct/2010 13:14:22] "GET /lista HTTP/1.1" 200 38 0.0060
+127.0.0.1 - - [06/Oct/2010 13:14:52] "GET /lista HTTP/1.1" 200 38 0.0060
+127.0.0.1 - - [06/Oct/2010 13:14:59] "GET / HTTP/1.1" 200 4888 0.0451
+127.0.0.1 - - [06/Oct/2010 13:14:59] "GET /lista HTTP/1.1" 200 38 0.0038
+127.0.0.1 - - [06/Oct/2010 13:15:02] "POST /discos HTTP/1.1" 200 359 0.0074
+127.0.0.1 - - [06/Oct/2010 13:15:02] "POST /temas HTTP/1.1" 200 41 0.0036
+127.0.0.1 - - [06/Oct/2010 13:15:03] "POST /temas HTTP/1.1" 200 1301 0.0098
+127.0.0.1 - - [06/Oct/2010 13:15:05] "POST /add HTTP/1.1" 200 4953 0.0460
+127.0.0.1 - - [06/Oct/2010 13:15:05] "POST /discos HTTP/1.1" 200 359 0.0042
+127.0.0.1 - - [06/Oct/2010 13:15:05] "GET /lista HTTP/1.1" 200 58 0.0035
+127.0.0.1 - - [06/Oct/2010 13:15:05] "POST /temas HTTP/1.1" 200 1301 0.0046
+127.0.0.1 - - [06/Oct/2010 13:15:35] "GET /lista HTTP/1.1" 200 58 0.0065
+>> Writing PID to /home/fgianetti/desaMost/ruby/playList/tmp/thin.pid
+>> Thin web server (v1.2.7 codename No Hup)
+>> Maximum connections set to 1024
+>> Listening on 127.0.0.1:5566, CTRL+C to stop
+>> Exiting!
