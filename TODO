@@ -3,3 +3,4 @@
 - Ver si es necesario volver a recargar todos los combos al agregar o se puede
 recargar solo la lista de abajo. Lo que pasa es que /add deberia ir a la pagina
 que arma la lista y usar load al apretar el boton de agregar, pero deberia no usar un submit ni form, sino mandar los valores seleccionados como parametros de la url
+test beanch
