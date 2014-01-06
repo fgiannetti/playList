@@ -54,7 +54,7 @@ class Recurse
 	def files(dirname)
 		filesDir=Array.new
 		Dir.chdir(dirname) do
-			Dir.glob('*.{mp,MP}3'){|fileName|
+			Dir.glob('*.[mM][pP]3'){|fileName|
 				filesDir<< PlayItem.new(File.join(dirname,fileName)) if File.file? File.join(dirname,fileName)
 			}
 		end
